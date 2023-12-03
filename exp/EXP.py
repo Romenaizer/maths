@@ -24,8 +24,7 @@ class EXPSystem:
                 return n
             except:
                 print("Error - factorial(n) too high. (>4300 digits)")
-    
-    
+                
     def sys_binomial_coefficient(n:int, k:int):
         """
         n!/k!(n-k)!
@@ -64,6 +63,3 @@ def binomial_distribution():
         p = float(input("p : "))
         k = int(input("k : "))
         print("P(X="+str(k)+") "+ sign + ' ' + str(EXPSystem.sys_binomial_distribution(n,p,k)))
-
-binomial_distribution()
-    
